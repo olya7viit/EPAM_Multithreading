@@ -1,0 +1,69 @@
+2020-05-17 14:41:00 [Thread-6] INFO  by.matusevich.multithreading.entity.Query - Паром ожидает.
+2020-05-17 14:41:00 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - ~~~~~~~~~~~false
+2020-05-17 14:41:00 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - ~~~~~~~~~~~false
+2020-05-17 14:41:00 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - ~~~~~~~~~~~false
+2020-05-17 14:41:00 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - ~~~~~~~~~~~false
+2020-05-17 14:41:00 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.15.0
+2020-05-17 14:41:00 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 в очереди.15.0
+2020-05-17 14:41:00 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - ~~~~~~~~~~~false
+2020-05-17 14:41:00 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - ~~~~~~~~~~~false
+2020-05-17 14:41:00 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 ожидает.10.0
+2020-05-17 14:41:00 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 в очереди.15.0
+2020-05-17 14:41:00 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 ожидает.10.0
+2020-05-17 14:41:00 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 ожидает.15.0
+2020-05-17 15:20:18 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 в очереди.10.0
+2020-05-17 15:20:18 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 ожидает.10.0
+2020-05-17 15:20:18 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 в очереди.10.0
+2020-05-17 15:20:18 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 в очереди.15.0
+2020-05-17 15:20:18 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 в очереди.10.0
+2020-05-17 15:20:18 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.10.0
+2020-05-17 15:20:18 [Thread-6] INFO  by.matusevich.multithreading.entity.Query - Паром ожидает.
+2020-05-17 15:26:58 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 ожидает.15.0
+2020-05-17 15:26:58 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 в очереди.10.0
+2020-05-17 15:26:58 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 в очереди.10.0
+2020-05-17 15:26:58 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 в очереди.10.0
+2020-05-17 15:26:58 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.15.0
+2020-05-17 15:26:58 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 в очереди.10.0
+2020-05-17 15:27:17 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.10.0
+2020-05-17 15:27:17 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 ожидает.15.0
+2020-05-17 15:27:17 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 в очереди.15.0
+2020-05-17 15:27:17 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 ожидает.15.0
+2020-05-17 15:27:17 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 в очереди.15.0
+2020-05-17 15:27:17 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 ожидает.15.0
+2020-05-17 15:28:20 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.15.0
+2020-05-17 15:28:20 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 в очереди.15.0
+2020-05-17 15:28:20 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 в очереди.10.0
+2020-05-17 15:28:20 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 ожидает.15.0
+2020-05-17 15:28:20 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 в очереди.10.0
+2020-05-17 15:28:20 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 ожидает.15.0
+2020-05-17 15:36:42 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 в очереди.15.0
+2020-05-17 15:36:42 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 ожидает.15.0
+2020-05-17 15:36:42 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 ожидает.15.0
+2020-05-17 15:36:42 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 в очереди.15.0
+2020-05-17 15:36:42 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 в очереди.15.0
+2020-05-17 15:36:42 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 ожидает.10.0
+2020-05-17 15:36:54 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 в очереди.10.0
+2020-05-17 15:36:54 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 в очереди.15.0
+2020-05-17 15:36:54 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 ожидает.15.0
+2020-05-17 15:36:54 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 ожидает.15.0
+2020-05-17 15:36:54 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 в очереди.10.0
+2020-05-17 15:36:54 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.10.0
+2020-05-17 15:37:24 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.15.0
+2020-05-17 15:37:24 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 в очереди.10.0
+2020-05-17 15:37:24 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 в очереди.10.0
+2020-05-17 15:37:24 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 ожидает.10.0
+2020-05-17 15:37:24 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 ожидает.15.0
+2020-05-17 15:37:24 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 в очереди.15.0
+2020-05-17 15:37:39 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 в очереди.10.0
+2020-05-17 15:37:39 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.10.0
+2020-05-17 15:37:39 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 ожидает.10.0
+2020-05-17 15:37:39 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 в очереди.10.0
+2020-05-17 15:37:39 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 в очереди.10.0
+2020-05-17 15:37:39 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 в очереди.10.0
+2020-05-17 15:38:29 [Thread-2] INFO  by.matusevich.multithreading.entity.Query - Машина 3 в очереди.10.0
+2020-05-17 15:38:29 [Thread-1] INFO  by.matusevich.multithreading.entity.Query - Машина 2 в очереди.10.0
+2020-05-17 15:38:29 [Thread-3] INFO  by.matusevich.multithreading.entity.Query - Машина 4 в очереди.15.0
+2020-05-17 15:38:29 [Thread-0] INFO  by.matusevich.multithreading.entity.Query - Машина 1 в очереди.15.0
+2020-05-17 15:38:29 [Thread-5] INFO  by.matusevich.multithreading.entity.Query - Машина 6 ожидает.15.0
+2020-05-17 15:38:29 [Thread-4] INFO  by.matusevich.multithreading.entity.Query - Машина 5 ожидает.10.0
+2020-05-17 15:43:15 [Thread-6] INFO  by.matusevich.multithreading.entity.Query - Паром ожидает.

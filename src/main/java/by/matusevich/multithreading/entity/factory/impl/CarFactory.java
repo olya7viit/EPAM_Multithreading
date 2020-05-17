@@ -11,11 +11,6 @@ import java.util.Random;
 public class CarFactory implements TransportFactory {
 
     private int carCount;
-    private static final int AREA_PASSENGER = 5;
-    private static final int AREA_CARGO = 15;
-    private static final int WEIGHT_PASSENGER = 3;
-    private static final int WEIGHT_CARGO = 6;
-
 
     public CarFactory(int carCount) {
         this.carCount = carCount;
@@ -24,14 +19,14 @@ public class CarFactory implements TransportFactory {
     @Override
     public List<Car> generate(){
         List<Car> cars = new ArrayList<Car>();
-        TypeCar typeCar = getRandomType();
 
         for (int i=0;i<carCount;i++) {
+            TypeCar typeCar = getRandomType();
             if (typeCar.equals(TypeCar.PASSENGER)) {
-                cars.add(new Car(i+1, typeCar, AREA_PASSENGER, WEIGHT_PASSENGER));
+                cars.add(new Car(i+1, typeCar, TypeCar.PASSENGER.getArea(), TypeCar.PASSENGER.getWeight()));
             }
             if (typeCar.equals(TypeCar.CARGO)) {
-                cars.add(new Car(i+1, typeCar, AREA_CARGO, WEIGHT_CARGO));
+                cars.add(new Car(i+1, typeCar, TypeCar.CARGO.getArea(), TypeCar.CARGO.getWeight()));
             }
         }
         return cars;

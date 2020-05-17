@@ -17,8 +17,8 @@ public class Car implements Runnable{
 
     @Override
     public void run() {
-        Ferry ferry = Ferry.getInstance();
-        ferry.addCar(this);
+        Query query = new Query();
+        query.addCar(this);
     }
 
     public TypeCar getTypeCar() {
@@ -51,5 +51,15 @@ public class Car implements Runnable{
 
     public void setIdCar(long idCar) {
         this.idCar = idCar;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "idCar=" + idCar +
+                ", typeCar=" + typeCar +
+                ", area=" + area +
+                ", weight=" + weight +
+                '}';
     }
 }
