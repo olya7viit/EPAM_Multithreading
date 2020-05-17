@@ -2,8 +2,8 @@ package by.matusevich.multithreading.entity;
 
 public enum TypeCar {
 
-    PASSENGER(10,1),
-    CARGO(15,5);
+    PASSENGER(10,5),
+    CARGO(15,20);
 
     private double area;
     private double weight;

@@ -17,8 +17,8 @@ public class Car implements Runnable{
 
     @Override
     public void run() {
-        Query query = new Query();
-        query.addCar(this);
+        FerryController controller = new FerryController();
+        controller.addCar(this);
     }
 
     public TypeCar getTypeCar() {
