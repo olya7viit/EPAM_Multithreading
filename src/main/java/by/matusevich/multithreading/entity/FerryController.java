@@ -17,6 +17,7 @@ public class FerryController {
     private static int currentLoadWEIGHT;
     private static boolean load;
     private Ferry ferry;
+    private static int countCar;
     private static final int TRANSPORTATION_TIME = 3;
     private static final int TIMEOUT = 100;
     private static final Logger LOGGER = LogManager.getLogger();
@@ -30,7 +31,7 @@ public class FerryController {
     }
 
     public void transport() {
-        while (true) {
+        while (countCar!=0) {
             locker.lock();
             try {
                 TimeUnit.MILLISECONDS.sleep(TIMEOUT);
@@ -45,6 +46,7 @@ public class FerryController {
                 int size = carsOnTheFerry.size();
                 for (int i = 0; i < size; i++) {
                     LOGGER.info("Машина " + carsOnTheFerry.poll().getIdCar() + " перевезена.");
+                    countCar--;
                 }
 
                 load = false;
@@ -61,6 +63,7 @@ public class FerryController {
 
     public void addCar(Car car) {
         locker.lock();
+        countCar++;
         try {
             while (load ||
                     (currentLoadArea + car.getArea() > ferry.MAX_AREA) ||
